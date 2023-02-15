@@ -31,13 +31,13 @@ TopicID\
 QuestionID\
 DataValueTypeID\
 StratificationCategoryID1\
-StratificationID1\
+StratificationID1
 
 ## State Income Dataset
 ### state_income.csv
 state\
 median_income\
-std_error\
+std_error
 
 # Tasks & Questions
 1) Read both datasets into dataframes.
