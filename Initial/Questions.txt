@@ -1,0 +1,35 @@
+1st dataset: charges data
+customerID: customer id
+tenure: number of months the customer stayed with the company
+contract:: contract term of the customer
+paperlessBilling: whether customers have paperlessBilling:
+paymentMethod: payment method
+monthlycharges: the amount charged to customer monthly
+totalCharges: the total amount charged to the customer
+churn: whether customer churn or not
+2nd dataset: Personal data
+
+customerID: customer id
+gender: customer gender
+partner: whether or not a customer has a partner
+dependents: whether or not a customer has dependents
+age: customer’s age
+3rd dataset: Plan data
+
+customerID: customer id
+phoneService: whether or not a customer has a phone service
+partner: whether or not a customer has a partner
+multipleLines: whether or not a customer has multiple lines
+internetService: customer’s internet service provider
+
+Question 1: Read all three datasets
+Question 2: Check for null values
+Question 3: Fill in the missing values with condition
+  - Fill in the missing values in the monthlyCharge column with the trimmed average of non-empty observations from this column. To calculate the trimmed average, reject 10% of the biggest and 10% of the smallest values from calculations. Round the final value to the nearest integer.
+Question 4: Fill in the missing values with condition
+  - Fill in the missing values in the totalCharges column with the monthlyCharges multiplied by the tenure value.
+Question 5: Calculate the churn rate percentage
+Question 6: Joined data
+  - Join the updated charges data with personal data and the plan data by the customerID.
+Question 7: Calculate the percentage of customers more than 65 years old
+  - Using the merged data, calculate the percentage of customer who is more than 65 years old and round the result to the nearest integer.
